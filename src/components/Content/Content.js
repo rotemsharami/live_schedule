@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './Content.scss';
-
 import General from "../General/General"
 import Schedule from "../Schedule/Schedule"
 
