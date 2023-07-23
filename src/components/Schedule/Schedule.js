@@ -9,15 +9,13 @@ const Schedule = () => {
 
   return(
     <div className="Schedule">
-                <div>
-                {getData().activities.map((activity)=>
-                  <div key={activity.id} className='activity'>
-                    <div className='title'>{activity.title}</div>
-                  </div>
-                )}
-              </div>
-
-
+		<div>
+			{getData().activities.map((activity)=>
+				<div key={activity.id} className='activity'>
+				<div className='title'>{activity.title}</div>
+				</div>
+			)}
+		</div>
     </div>
     );
   };
